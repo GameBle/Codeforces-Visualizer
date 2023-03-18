@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/bgColor"
+    android:scrollbars="none"
+    tools:context=".Dashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/PublicData"
+            style="@style/CardViewStyle"
+            tools:visibility="visible">
+
+            <include
+                android:id="@+id/public_data_id"
+                layout="@layout/user_public_data" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/UserGraph"
+            style="@style/CardViewStyle"
+            tools:visibility="visible">
+
+            <include
+                android:id="@+id/user_graph_id"
+                layout="@layout/user_graph" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/UserRatingSolved"
+            style="@style/CardViewStyle"
+            tools:visibility="visible">
+
+            <include
+                android:id="@+id/user_solved_rating_id"
+                layout="@layout/user_solved_ratings" />
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/UserIndexSolved"
+            style="@style/CardViewStyle"
+            tools:visibility="visible">
+
+            <include
+                android:id="@+id/user_solved_index_id"
+                layout="@layout/user_solved_index" />
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+
+</ScrollView>
