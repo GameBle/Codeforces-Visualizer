@@ -1,4 +1,4 @@
-package com.asr.codeforcesapivisualizer.dataofuser.dataofsubmission
+package com.example.codeforcesapivisualizer.dataofuser.dataofsubmission
 
 data class Problem(
         val contestId: Int,

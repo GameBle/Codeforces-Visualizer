@@ -1,4 +1,4 @@
-package com.asr.codeforcesapivisualizer.dataofuser.infoofuser
+package com.example.codeforcesapivisualizer.dataofuser.infoofuser
 
 data class Users(
         val avatar: String?,

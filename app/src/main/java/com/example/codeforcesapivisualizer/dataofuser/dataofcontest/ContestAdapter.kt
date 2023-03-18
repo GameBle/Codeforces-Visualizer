@@ -1,4 +1,4 @@
-package com.asr.codeforcesapivisualizer.dataofuser.dataofcontest
+package com.example.codeforcesapivisualizer.dataofuser.dataofcontest
 
 import android.content.Context
 import android.view.LayoutInflater

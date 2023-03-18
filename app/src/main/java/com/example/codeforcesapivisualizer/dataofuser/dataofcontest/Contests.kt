@@ -1,4 +1,4 @@
-package com.asr.codeforcesapivisualizer.dataofuser.dataofcontest
+package com.example.codeforcesapivisualizer.dataofuser.dataofcontest
 
 data class Contests(
         val contestId: Int,

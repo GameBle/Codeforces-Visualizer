@@ -1,4 +1,4 @@
-package com.example.codeforcesviewer
+package com.example.codeforcesapivisualizer
 
 import org.junit.Test
 

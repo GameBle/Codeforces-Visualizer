@@ -1,9 +1,8 @@
 @file:Suppress("DEPRECATION")
 
-package com.asr.codeforcesapivisualizer
+package com.example.codeforcesviewer
 
 import android.app.Activity
-import android.content.Context
 import android.content.res.Configuration
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -20,17 +19,16 @@ import androidx.appcompat.app.AlertDialog
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.asr.codeforcesapivisualizer.databinding.*
-import com.asr.codeforcesapivisualizer.dataofuser.dataofcontest.ContestAdapter
-import com.asr.codeforcesapivisualizer.dataofuser.dataofcontest.ContestDataToShow
-import com.asr.codeforcesapivisualizer.dataofuser.dataofcontest.UserContests
-import com.asr.codeforcesapivisualizer.dataofuser.dataofsubmission.Problem
-import com.asr.codeforcesapivisualizer.dataofuser.dataofsubmission.UserSubmissions
-import com.asr.codeforcesapivisualizer.dataofuser.graphstyling.BarChartStyling
-import com.asr.codeforcesapivisualizer.dataofuser.graphstyling.LineChartStyling
-import com.asr.codeforcesapivisualizer.dataofuser.infoofuser.UserPublicData
-import com.asr.codeforcesapivisualizer.FetchData
+import com.example.codeforcesapivisualizer.dataofuser.dataofcontest.ContestAdapter
+import com.example.codeforcesapivisualizer.dataofuser.dataofcontest.ContestDataToShow
+import com.example.codeforcesapivisualizer.dataofuser.dataofcontest.UserContests
+import com.example.codeforcesapivisualizer.dataofuser.dataofsubmission.Problem
+import com.example.codeforcesapivisualizer.dataofuser.dataofsubmission.UserSubmissions
+import com.example.codeforcesapivisualizer.dataofuser.graphstyling.BarChartStyling
+import com.example.codeforcesapivisualizer.dataofuser.graphstyling.LineChartStyling
+import com.example.codeforcesapivisualizer.dataofuser.infoofuser.UserPublicData
+import com.example.codeforcesapivisualizer.makeapicalls.FetchData
 import com.asr.codeforcesapivisualizer.R
-import com.asr.codeforcesapivisualizer.databinding.*
 import com.github.mikephil.charting.data.*
 import com.github.mikephil.charting.formatter.ValueFormatter
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet

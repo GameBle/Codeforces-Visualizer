@@ -1,4 +1,4 @@
-package com.asr.codeforcesapivisualizer.dataofuser.graphstyling
+package com.example.codeforcesapivisualizer.dataofuser.graphstyling
 
 import android.content.Context
 import androidx.core.content.ContextCompat.getColor

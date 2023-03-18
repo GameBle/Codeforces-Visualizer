@@ -11,8 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CodeForcesViewer">
-        <activity android:name=".Dashboard"/>
-        <activity android:name=".MainActivity"
+        <activity android:name="com.example.codeforcesviewer.Dashboard"/>
+        <activity android:name="com.example.codeforcesapivisualizer.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

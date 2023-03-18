@@ -1,8 +1,8 @@
-package com.asr.codeforcesapivisualizer
+package com.example.codeforcesapivisualizer.makeapicalls
 
-import com.asr.codeforcesapivisualizer.dataofuser.dataofcontest.UserContests
-import com.asr.codeforcesapivisualizer.dataofuser.dataofsubmission.UserSubmissions
-import com.asr.codeforcesapivisualizer.dataofuser.infoofuser.UserPublicData
+import com.example.codeforcesapivisualizer.dataofuser.dataofcontest.UserContests
+import com.example.codeforcesapivisualizer.dataofuser.dataofsubmission.UserSubmissions
+import com.example.codeforcesapivisualizer.dataofuser.infoofuser.UserPublicData
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

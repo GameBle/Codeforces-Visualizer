@@ -1,7 +1,4 @@
-package com.asr.codeforcesapivisualizer.dataofuser.dataofsubmission
-
-import com.asr.codeforcesapivisualizer.dataofuser.dataofsubmission.Author
-import com.asr.codeforcesapivisualizer.dataofuser.dataofsubmission.Problem
+package com.example.codeforcesapivisualizer.dataofuser.dataofsubmission
 
 data class Submission(
         val author: Author,

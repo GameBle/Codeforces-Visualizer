@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:paddingTop="10dp"
     android:paddingBottom="15dp"
-    tools:context=".Dashboard">
+    tools:context="com.example.codeforcesviewer.Dashboard">
 
     <TextView
         android:id="@+id/TitleText"
