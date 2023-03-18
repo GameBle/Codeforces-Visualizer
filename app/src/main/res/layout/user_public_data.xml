@@ -133,7 +133,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/profile_photo_image_view"
-        tools:text="Priyansh31dec" />
+        tools:text="tourist" />
 
     <TextView
         android:id="@+id/title_text_view2"
@@ -227,7 +227,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/NameQuestion"
         app:layout_constraintTop_toBottomOf="@+id/title_text_view2"
-        tools:text="Priyansh Agarwal" />
+        tools:text="Ali Saquib Raza" />
 
     <TextView
         android:id="@+id/CurrentRatingAnswer"
@@ -251,7 +251,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/OrganizationQuestion"
         app:layout_constraintTop_toBottomOf="@+id/MaxRankAnswer"
-        tools:text="IIIT Delhi" />
+        tools:text="NIT Durgapur" />
 
     <TextView
         android:id="@+id/City_CountryAnswer"
@@ -260,7 +260,7 @@
         app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toEndOf="@id/OrganizationQuestion"
         app:layout_constraintTop_toBottomOf="@+id/OrganizationAnswer"
-        tools:text="New Delhi, India" />
+        tools:text="Durgapur, India" />
 
     <TextView
         android:id="@+id/ContributionAnswer"
